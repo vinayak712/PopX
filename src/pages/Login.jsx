@@ -1,4 +1,4 @@
-function Signup() {
+function Login() {
   return (
     <div className="flex justify-center items-center h-screen bg-gray-50  ">
       <div className="flex flex-col w-[400px] max-w-md p-8 bg-white rounded-3xl shadow-lg border border-gray-200 h-[600px] m-4  ">
@@ -40,4 +40,4 @@ function Signup() {
   )
 }
 
-export default Signup
+export default Login
