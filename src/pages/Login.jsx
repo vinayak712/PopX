@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 function Login() {
   return (
     <div className="flex justify-center items-center h-screen bg-gray-50  ">
@@ -34,7 +35,7 @@ function Login() {
         >
           Login
               </button>
-              <p className="text-xl m-4">Don't have account <span className="text-purple-700 hover:text-purple-500">Create Account</span></p>
+          <Link to='/signup'>     <p className="text-xl m-4">Don't have account <span className="text-purple-700 hover:text-purple-500">Create Account</span></p></Link>
       </div>
     </div>
   )
